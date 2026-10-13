@@ -1,0 +1,123 @@
+# ---------------------------------------------------------
+# Dreaming Arcadia / WordPress
+# ---------------------------------------------------------
+
+# WordPress core files/directories
+# Useful if this repository ever sits at the WordPress site root.
+# Your custom theme files remain tracked.
+wp-admin/
+wp-includes/
+
+# WordPress root core files
+/wp-activate.php
+/wp-blog-header.php
+/wp-comments-post.php
+/wp-config-sample.php
+/wp-cron.php
+/wp-links-opml.php
+/wp-load.php
+/wp-login.php
+/wp-mail.php
+/wp-settings.php
+/wp-signup.php
+/wp-trackback.php
+/xmlrpc.php
+
+# ---------------------------------------------------------
+# Sensitive / environment-specific configuration
+# ---------------------------------------------------------
+
+wp-config.php
+wp-config-*.php
+.env
+.env.*
+!.env.example
+
+# ---------------------------------------------------------
+# User-generated WordPress content
+# ---------------------------------------------------------
+
+wp-content/uploads/
+wp-content/upgrade/
+
+# ---------------------------------------------------------
+# Cache / generated files
+# ---------------------------------------------------------
+
+wp-content/cache/
+wp-content/advanced-cache.php
+wp-content/object-cache.php
+wp-content/debug.log
+*.log
+
+# Common cache/plugin generated directories
+wp-content/litespeed/
+wp-content/w3tc-config/
+wp-content/wp-rocket-config/
+wp-content/cache-enabler/
+
+# ---------------------------------------------------------
+# Backups / exports
+# ---------------------------------------------------------
+
+wp-content/backups/
+wp-content/backup*/
+wp-content/updraft/
+wp-content/ai1wm-backups/
+*.sql
+*.sql.gz
+*.zip
+*.tar
+*.tar.gz
+
+# ---------------------------------------------------------
+# Dependencies / build output
+# ---------------------------------------------------------
+
+node_modules/
+vendor/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# If you add a frontend build process later
+dist/
+build/
+
+# ---------------------------------------------------------
+# Local development
+# ---------------------------------------------------------
+
+.local/
+.localwp/
+*.local
+wp-cli.local.yml
+
+# ---------------------------------------------------------
+# IDE / editor files
+# ---------------------------------------------------------
+
+.vscode/
+.idea/
+*.code-workspace
+
+# ---------------------------------------------------------
+# OS-generated files
+# ---------------------------------------------------------
+
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+Desktop.ini
+
+# ---------------------------------------------------------
+# Temporary files
+# ---------------------------------------------------------
+
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
